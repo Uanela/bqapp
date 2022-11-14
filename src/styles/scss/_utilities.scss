@@ -1,0 +1,39 @@
+$main-color : #ff8c00;
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Texts
+
+.text-center{
+    text-align: center;
+}
+
+// Flexboxes
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.jc-{
+
+    &space-between{
+        justify-content: space-between;
+    }
+    
+    &space-around{
+        justify-content: space-around;
+    }
+
+    &center{
+        justify-content: center;
+    }
+}
+

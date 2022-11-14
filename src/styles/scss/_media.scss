@@ -1,0 +1,236 @@
+$main-color : #ff8c00;
+
+@media(max-width: 500px){
+    // Fourth Section
+    .fourth-section{
+        background-color: #1f1f1f;
+        
+        
+        .inner-content{
+            max-width: 100px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            a.sub-link{
+                background-color: $main-color;
+                height: 4.5rem;
+                color: #fff;
+                padding: 5px 100px;
+                border-radius: 10px;
+                font-weight: bold;
+                display: hidden;
+                align-items: center;
+                text-decoration: none;
+                cursor: pointer;
+                
+                &:hover{
+                    background-color: #db7900;
+                }
+            }
+    
+            .footer{
+                margin: 30px 0;
+                max-width: 90px;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                .social-media-icons{
+                    width: 100%;
+                    display: flex;
+                    margin-top: 25px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: $main-color;
+                        border-radius: 50%;
+                        width: 55px;
+                        height: 55px;
+                        margin: 10px;
+                        transition: all 0.15s;
+    
+                        &:hover{
+                            width: 60px;
+                            height: 60px;
+                            
+    
+                            
+                        }
+    
+                        svg{
+                            color: #fff;
+                            font-size: 1.75rem;
+                        }
+                    }
+                }
+    
+                p{
+                    margin-top: 25px;
+                }
+            }
+    
+    
+        }
+    }
+    
+
+
+    .header{
+        width: 90%;
+
+        img{
+            width: 150px;
+        }
+
+        h1{
+            font-size: 1rem;
+        }
+
+        p{
+            font-size: 0.8rem;
+        }
+
+        form{
+            width: 90%;
+
+            label{
+                font-size: 0.8rem;
+            }
+            input[type=submit]{
+                font-size: 1rem;
+
+            }
+        }
+    }
+
+    // Second Section
+    .second-section{
+        
+        .inner-content{
+            
+
+            .deliverables{
+                max-width: 98%;
+            }
+        }
+
+        .schedule-logo{
+            width: 100px;
+            margin-right: 0px;
+        }
+
+        .schedule-container{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .schedule-info{
+            margin-top: 10px;
+           
+
+            p{
+                font-size: 0.8rem;
+                text-align: center;
+            }
+        }
+
+        .deliverables{
+            display: block;
+
+            .row-{
+                &1, &2{
+                    display: block;
+                }
+            }
+
+            .delivery-{
+
+                &1, &2, &3, &4{
+                   display: inline-block;
+                   flex-basis: 50%;
+                    justify-content: center;
+                    margin: 10px;
+                    align-items: flex-start;
+                   
+                    .icon-circle{
+                        width: 40px;
+                        height: 40px;
+                        margin: 0 auto;
+                    }
+
+                    .info{
+                        p{
+                            font-size: 0.8rem;
+                            text-align: center;
+                        }
+                    }
+                }
+                
+                
+            }
+
+            .fa-{
+
+                &2x, &3x{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        
+    }
+
+    //Profile Section
+    .profile-section{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .profile-inner-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 85%;
+            margin: 0 auto;
+        }
+
+        h1{
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .profile-info{
+            p{
+                font-size: 0.8rem;
+                text-align: center;
+            }
+        }
+
+        .profile-logo{    
+            margin-top: 10px;
+            img{
+                width: 150px;
+                text-align: center;
+            }
+        }
+    }
+
+    
+}

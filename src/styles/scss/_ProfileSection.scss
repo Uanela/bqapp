@@ -1,0 +1,33 @@
+@import "utilities";
+
+.profile-section{
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    .profile-inner-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+   
+    .profile-logo{
+        
+        flex-basis: 25%;
+        margin-top: 25px;
+        img{
+            width: 250px;
+        }
+    }
+
+    .profile-info{
+        flex-basis: 70%;
+
+        h1{
+            color: $main-color;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+}

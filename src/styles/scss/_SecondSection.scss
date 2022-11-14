@@ -1,0 +1,74 @@
+@import "utilities";
+
+
+.second-section{
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.inner-content{
+    padding: 50px;
+    max-width: 1280px;
+
+    .content{
+        margin-bottom: 75px;
+    }
+
+    .deliverables{
+        max-width: 1000px;
+    }
+}
+
+.schedule-logo{
+    width: 250px;
+    margin-right: 150px;
+}
+
+.deliverables{
+    
+    .row-{
+        &1, &2{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+        }
+    }
+
+    .title{
+        color: $main-color;
+    }
+
+    .delivery-{
+
+        &1, &2, &3, &4{
+           display: flex;
+           flex-basis: 50%;
+            
+            margin: 10px;
+            align-items: flex-start;
+           
+        }
+        
+        
+    }
+
+    .icon-circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        flex-basis: 15%;
+        background-color: $main-color;
+        margin-right: 20px;
+        height: 70px;
+        svg{
+            color: #fff;
+        }
+    }
+
+    .info{
+        flex-basis: 85%;
+    }
+
+   
+}
+
